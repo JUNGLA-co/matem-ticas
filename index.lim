@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>repositorio</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <corbanda>00FFFF</corbanda>
+        <cornavega>3987C6</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>CONJUNTOS</titulo>
+        <subtitulo>Matemáticas</subtitulo>
+        <autor>Jose Antonio Heredia Villareal</autor>
+        <logo>pngegg.png</logo>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >Felicidades :D</correcto>
+        <incorrecto son="" modo="1" >Vuelve a intentarlo °¬°</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>2</tipo>
+              <imaxe posx="7" posy="175">Licenciatura.jpg</imaxe>
+              <texto posx="0" posy="2" ancho="200" largo="200"><![CDATA[
+<p align="center">
+<font color="#000000" face="Arial" size="28">CONJUNTO<br>
+Un conjunto es la agrupación de diferentes elementos que comparten entre sí características y propiedades semejantes. Estos elementos pueden ser sujetos u objetos, tales como números, canciones, meses, personas, etc. Por ejemplo: el conjunto de números primos o el conjunto de planetas del sistema solar.</font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="2" >
+              <tipo>2</tipo>
+              <imaxe posx="0" posy="136">Licenciatura.jpg</imaxe>
+              <texto posx="50" posy="50" ancho="200" largo="200"><![CDATA[<font size="12"><iframe width="560" height="315" src="https://www.youtube.com/embed/KmcRMlv9_T4?si=RBzGaqdPa4VNk0fA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></font>]]></texto>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="3" >
+              <tipo>3</tipo>
+              <imaxe>Membership.svg.png</imaxe>
+              <imfondo  trans="100">Licenciatura.jpg</imfondo>
+              <filas>3</filas>
+              <columnas>3</columnas>
+              <reixa>1</reixa>
+            <forma>0</forma>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+              <imaxe>Licenciatura_(3).jpg</imaxe>
+              <texto>¿Cuál de estos elementos dentro del conjunto no pertenece?</texto>
+              <resp texto="Este elemento está dentro del conjunto" valor="0">Cuadrado</resp>
+              <resp texto="Este elemento está dentro del conjunto" valor="0">Estrella </resp>
+              <resp texto="Este elemento no está dentro del conjunto" valor="1">Hexágono</resp>
+              <resp texto="Este elemento está dentro del conjunto" valor="0">Triángulo</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>10</tipo>
+              <imaxe>Licenciatura_(5).jpg</imaxe>
+              <pregunta res="verdadero">¿los conjuntos finitos tienen elementos que pueden contarse o enumerarse en su totalidad?</pregunta>
+              <pregunta res="falso">¿Un conjunto vacío tiene uno o más elementos?</pregunta>
+              <pregunta res="falso">¿Un conjunto infinito está vacío o sin elementos?</pregunta>
+        </paxina>
+    </libro>
+</lim>
